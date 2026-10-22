@@ -1,0 +1,26 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "stationess",
+          "appId": "1:57510865000:android:685f7621035e42449173dd",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "stationess",
+          "configurations": {
+            "android": "1:57510865000:android:685f7621035e42449173dd",
+            "ios": "1:57510865000:ios:6ebefa3de5d9d9519173dd",
+            "macos": "1:57510865000:ios:6ebefa3de5d9d9519173dd"
+          }
+        }
+      }
+    }
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}

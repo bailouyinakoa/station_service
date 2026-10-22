@@ -1,0 +1,9 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /station_backups/{deviceId}/{fileName} {
+      allow read, write: if fileName == 'station_service.db';
+    }
+  }
+}
